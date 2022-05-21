@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center; background-color: rgb(62, 62, 62); font-size: 20px;">
+    <script src="JuegoVida.js"></script>
+    
+    <canvas style="border:1px solid black; margin-top: 10px; box-shadow: 20px 20px #2c2b2b; border-radius: 25px;" id="canvas"></canvas>
+    
+    <div><button onclick="inicializa()">Iniciar/Reiniciar</button></div>
+
+    <h1 style="color:aliceblue; text-shadow: 2px 6px #000000;">VIDA</h1>
+
+    <p Style="color:aliceblue">El «Juego de la Vida» de Conway, o simplemente «Vida», tiene poco de juego. No tiene<br>
+        jugadores, no se puede «ganar» y no se puede «perder». No parece muy interesante, sin<br>
+        embargo ha cautivado a matemáticos y programadores desde sus orígenes hace 50 años.<br>
+        <br>Se «juega» sobre un tablero parecido al del ajedrez, sobre una cuadrícula. Pero a diferencia del<br>
+        ajedrez o la mayoría de juegos, el único control que tenemos como «jugador» es la posición de<br>
+        las piezas iniciales.<br>
+        <br>Una vez el juego empieza, no tenemos ningún control. Las reglas determinan cómo acaba el juego.</p>
+        <h2 style="color:aliceblue; text-shadow: 2px 6px #000000;">Origen</h2>
+        <p style="color:aliceblue">Vida es lo que se llama un autómata celular. Un modelo matemático diseñado para simular un<br>
+             sistema dinámico.<br>
+
+            <br>Vida fue inventado por el matemático John Conway en 1970. Su objetivo era crear un sistema<br>
+             que simulase la vida y su naturaleza impredecible.<br>
+            
+            <br>La forma en la que representa la vida es muy sencilla. Una cuadrícula de células, algunas<br>
+             están vivas, otras están muertas. Cada célula tiene ocho células vecinas, en vertical,<br>
+              horizontal y en las diagonales. Este sistema aparentemente tan simple puede generar<br>
+               patrones complejos e impredecibles gracias a unas sencillas reglas.<br>
+            
+            <br>Conway probó a aplicar muchas y distintas reglas, algunas hacían que las células murieran<br>
+            <br>muy pronto y otras hacían que nunca murieran.<br>
+            
+            <br>Las reglas de la versión final del juego mantienen un equilibrio. Esto hace que, a simple vista,<br>
+             sea muy difícil saber si un grupo de células vivirán o morirán después de cierto tiempo.</p>
+</body>
+</html>
